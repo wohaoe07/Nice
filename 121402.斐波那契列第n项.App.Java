@@ -20,7 +20,9 @@ public class App2 {
 			} else {
 				b = fib(a - 1) + fib(a - 2);
 			}
-		}
+		}else {
+			System.out.println("输入有误");
+			}
 			
 		return b;
 		
